@@ -1,0 +1,15 @@
+html {
+    background-color:#000000;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:#007D7B;
+    text-transform:uppercase;
+}
+
+nav {
+    list-style:none;
+    color:#FFFFFF;
+    text-transform:uppercase;
+}
