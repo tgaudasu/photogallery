@@ -5,15 +5,64 @@
         <title>Photo Gallery</title>
         <link rel="stylesheet" href="style.css">
     </head>
+
+<body>
     <header>
         <h1>TK Photography</h1>
-        <nav>
-            <ul>
-                <li>About</li>
-                <li>Gallery</li>
-                <li>Contact</li>
-                <li>^ Top</li>
-            </ul>
-        </nav>
     </header>
+    <nav>
+        <ul>
+            <li><a href="about">About</a></li>
+            <li><a href="gallery">Gallery</a></li>
+            <li><a href="contact">Contact</a></li>
+            <li><a href="#top">^ Top</a></li>
+        </ul>
+    </nav>
+    <main>
+        <img src="TK.png" class="top" alt="Person taking photograph">
+        <section class="about">
+            <h2>About</h2>
+            <p>Hello!</p>
+            <p>I’m TK and I’m a photographer.</p> 
+            <p>I love looking at life through the lens of my camera. Landscape photography is my speciality and it’s taken me all over the world.</p>
+        </section>
+        <section>  
+            <h2>Gallery</h2>
+            <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+        </section>
+        <section class="images">
+            <figure>
+                <img src="Chile.png" width="420px" height="281px" alt="Chile, 2001">
+                <img src="Guatemala.png" width="420px" height="281px" alt="Guatemala, 1997">
+                <img src="Hawaii.png" class="hawaii" width="420px" height="281px" alt="Hawaii, 2010">
+                <img src="Iran.png" class="iran" width="420px" height="630px" alt="Iran, 1999">
+                <img src="Ireland.png" class="ireland" width="420px" height="630px" alt="Ireland, 2012">
+                <img src="Italy.png" class="italy" width="420px" height="630px" alt="Italy, 2015">
+                <img src="Moab-Desert.png" class="moabdesert" width="420px" height="281px" alt="Moab Desert, 2020">
+                <img src="Rocky-Mountains.png" class="rockymountains" width="420px" height="281px" alt="Rocky Mountains, 2009">
+                <img src="Switzerland.png" class="switzerland" width="420px" height="281px" alt="Switzerland, 2014">
+                <img src="UK.png" class="uk" width="420px" height="281px" alt="UK, 2005">
+                <img src="USA.png" class="usa" width="420px" height="281px" alt="USA, 2021">
+                <img src="Wyoming.png" class="wyoming" width="420px" height="281px" alt="Wyoming, 2021">
+            </figure>
+        </section>
+    </main>
+    <aside class="contact">
+        <h2>Contact</h2>
+        <p>Please fill out this form and I'll connect with you soon.</p>
+        <form class="form">
+        <p class="name">Name</p>
+            <input type="text" name="name" value="Your Full Name">
+        <p class="email">Email</p>
+            <input type="text" name="email" value="Enter Your Email Address">
+        <p class="message">Message</p>
+            <input type="text" name="message" value="What Can I Help You With?">
+        </form>
+        <br>
+        <input type="submit" class="submit">
+    </aside>
+    <footer>
+        <small>Copyright 2021 TK Photography</small>
+    </footer>
+</body>
 </html>
